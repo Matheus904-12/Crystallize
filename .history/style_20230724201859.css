@@ -107,13 +107,16 @@ html {
   
   .planoTitulo {
     font-size: 24px;
-    margin-top: 5px;
-    padding: 0px 50px 0px 68.5px;
+    width: 100%;
+    text-align: left;
   }
   
   .planoTexto {
-    padding: 0px 68.5px 0px 68.5px;
-    font-size: 18px;
+    padding: 0px -49px 0px 50px;
+    font-size: 22px;
+    width: 100%;
+    text-align: left;
+    word-wrap: wrap;
   }
 /* FIM PLANOS */
 
@@ -223,8 +226,9 @@ footer {
 #enviar {
     width: 130px;
     height: 40px;
+
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 30px;
     font-family: "inter";
 }
 
@@ -298,4 +302,3 @@ footer {
     margin: 100px 100px
 }
 /* FIM INFORMACOES */
-
