@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+body { overflow-x: hidden;
+}
+
 /* FIM RESET */
 
 /* PADRAO */
@@ -96,24 +99,24 @@ html {
 
 /* PLANOS */
 
-.planosOpc {
-    position: absolute;
+#planosOpc { 
     display: flex;
-    width: 100px;
-    height: 200px;
+    
     font-size: 18px;
     flex-wrap: wrap;
+    margin: 50px 50px 0px 50px;
   }
   
   .planoTitulo {
     font-size: 24px;
-    margin-top: 5px;
-    padding: 0px 50px 0px 68.5px;
+    padding: 0px 90px 
   }
   
   .planoTexto {
-    padding: 0px 68.5px 0px 68.5px;
+   
     font-size: 18px;
+    word-wrap: wrap;
+    padding: 0px 45px;
   }
 /* FIM PLANOS */
 
@@ -152,7 +155,7 @@ html {
             display: flex;
             justify-content: center;
             flex-direction: column;
-
+            
             filter: drop-shadow(1px 0px 5px #000000);
             
         }
@@ -295,7 +298,6 @@ footer {
 }
 
 .comoContatar {
-    margin: 100px 100px
+    margin: 100px 210px
 }
 /* FIM INFORMACOES */
-
